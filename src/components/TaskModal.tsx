@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, Check } from 'lucide-react';
-import { Task, ColumnId, COLUMNS, Checklist, CHECKLIST_LABELS, DEFAULT_CHECKLIST } from '../types';
+import  {  Task,  ColumnId, COLUMNS, Checklist, CHECKLIST_LABELS, DEFAULT_CHECKLIST } from '../types';
 
 interface TaskModalProps {
   task?: Task | null;

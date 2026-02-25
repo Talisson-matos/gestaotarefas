@@ -1,7 +1,7 @@
 import React from 'react';
 import { Draggable } from '@hello-pangea/dnd';
 import { Pencil, Trash2 } from 'lucide-react';
-import { Task, Checklist, CHECKLIST_LABELS } from '../types';
+import  { type Task, type Checklist, CHECKLIST_LABELS } from '../types';
 
 interface TaskCardProps {
   task: Task;
